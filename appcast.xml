@@ -1,8 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <title>Superscore</title>
     <link>https://raw.githubusercontent.com/superscore-ai/superscore-app-builds/main/appcast.xml</link>
     <description>Superscore application updates</description>
-    </channel>
+    <item>
+      <title>Version 0.1.2</title>
+      <link>https://github.com/superscore-ai/superscore-app-builds/releases/tag/v0.1.2</link>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.3</sparkle:minimumSystemVersion>
+      <sparkle:releaseNotesLink>https://github.com/superscore-ai/superscore-app-builds/releases/tag/v0.1.2</sparkle:releaseNotesLink>
+      <pubDate>Thu, 21 May 2026 21:50:29 +0000</pubDate>
+      <enclosure url="https://github.com/superscore-ai/superscore-app-builds/releases/download/v0.1.2/Superscore.zip" length="136235138" type="application/octet-stream" sparkle:edSignature="ar4zjVb25ODTwbuxe15f++VObXz72fAdGSxI4euAmtSGFb3nk9ZULaG2Vc4dQpAfow8Ly/uEMo/NTJceqtdNCw==" />
+    </item>
+  </channel>
 </rss>
